@@ -1,0 +1,14 @@
+*{
+    background-color: rgb(23, 24, 24);
+    color: white;
+}
+
+td , th{
+    border: 6px solid red;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
