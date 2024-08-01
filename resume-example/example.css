@@ -1,0 +1,75 @@
+*{
+    box-sizing:border-box;
+    
+}
+
+body{
+    background-image: url("https://i.postimg.cc/BvqCyvDL/wp2636472.jpg") ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    
+} 
+/* 
+font-family: 'SpongeBob Font Condensed', sans-serif;
+font-family: 'SpongeBob Font Wide', sans-serif; */
+
+
+section{
+    background-image: url(https://i.postimg.cc/rsdmgw7W/map-background.jpg);
+    margin:2rem 8rem;
+    padding: 2rem 5rem;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.3rem;
+    font-family: 'SpongeBob Font Wide', sans-serif
+
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponge{
+    height: 12rem;
+
+}
+
+h2{
+    font-family: 'SpongeBob Font Wide', sans-serif;
+    font-size: 1.2rem;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    line-height: 32px;
+    font-family: 'SpongeBob Font Condensed', sans-serif;
+}
+ol li{
+    line-height: 30px;
+    font-family: 'SpongeBob Font Condensed', sans-serif;
+}
+
+p{
+    font-family: 'SpongeBob Font Condensed', sans-serif;
+
+}
+
+hr{
+    border-color: rgb(141, 134, 134);
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-between
+}
