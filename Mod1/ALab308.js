@@ -108,7 +108,7 @@ function calculateTripDetails(speed, fuelEconomy){
 
   const gallonsNeeded = totalMiles / fuelEconomy;
 
-  const fuelCost = gallonsNeeded + fuelPerGalon;
+  const fuelCost = gallonsNeeded * fuelPerGalon;
 
   const isBudgetGood = fuelCost <= totalFuelBudget;
 
