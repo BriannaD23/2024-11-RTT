@@ -70,3 +70,39 @@ function getDevObject(name, ...skills) {
     };
 }
 console.log(maria)
+
+
+
+const myPerson = {
+    name: {
+        first: 'Timmy',
+        last: 'Timtim'
+    },
+    age: 30,
+    location: {
+        city: 'New York',
+        state: 'New York',
+        zip: 10001
+    }
+}
+
+//Deep Copies
+
+function copyPerson(oldPerson) {
+    const newPerson = {
+        name: {},
+        age: null,
+        location: {}
+    };
+
+    newPerson.name.first = oldPerson.name.first;
+    newPerson.name.last = oldPerson.name.last;
+    newPerson.age = oldPerson.age;
+    newPerson.location.city = oldPerson.location.city;
+    newPerson.location.state = oldPerson.location.state;
+    newPerson.location.zip = oldPerson.location.zip;
+
+    return newPerson;
+}
+
+const myPersonCopy = copyPerson(myPerson);
