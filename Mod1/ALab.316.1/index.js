@@ -31,7 +31,6 @@ const topMenuEL = document.querySelector('#top-menu');
 
 
 
-
 topMenuEL.style.height = '100%';
 topMenuEL.style.backgroundColor = 'var(--top-menu-bg)';
 topMenuEL.classList.add('flex-around')

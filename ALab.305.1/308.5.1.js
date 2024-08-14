@@ -34,3 +34,17 @@ function strsNums(strings, num){
 
 const number =5
 console.log(strsNums(arrayOfStrings, number))
+
+// Take a number, n, and print every number between 1 and n without using loops. Use recursion.
+
+function printEveryNumber(current, n){
+    if(current >= n){
+        return;
+    }
+    console.log(current);
+    printEveryNumber(current+1 ,n);
+}
+
+printEveryNumber(1,5)
+
+// Part 2: Thinking Methodically
