@@ -48,3 +48,4 @@ function printEveryNumber(current, n){
 printEveryNumber(1,5)
 
 // Part 2: Thinking Methodically
+
